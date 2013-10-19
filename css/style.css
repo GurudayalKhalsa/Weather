@@ -1,0 +1,92 @@
+.container{
+  margin-bottom: 10px;
+}
+
+form{
+  width: 300px;
+  margin: 0 auto;
+}
+
+label{
+  margin-left: 100px;
+}
+
+.input-append{
+  margin-top: 15px;
+}
+
+ol{
+  margin-left: 0;
+}
+
+h1, .input-append{
+  text-align: center;
+}
+
+.searchResults {
+  margin: 0;
+  padding: 5px 0;
+  position: absolute;
+  background: #fff;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  margin-left: -1px;
+  z-index: 100;
+  border-radius: 5px;
+}
+
+#word{
+    text-decoration: underline;
+}
+
+#results{
+    padding: 10px;
+    background-color: #fcfcfc;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+#results .head{
+  text-align: center;
+}
+
+#results .body{
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 300px;
+  text-align: left;
+}
+
+.center{
+  width: 100%;
+  text-align: center;
+}
+.center img{
+  margin: 20px auto;
+  margin-bottom: 50px;
+
+}
+
+p{
+  margin-bottom: 5px;
+}
+
+.searchResults li {
+  margin: 0;
+}
+
+.searchResults .active a{
+    color:#ffffff;
+    text-decoration:none;
+    background-color:#08c;
+}
+
+.searchResults li a {
+  text-align: left;
+  display: block;
+  padding: 3px 20px;
+  clear: both;
+  line-height: 20px;
+  color: #333333;
+  white-space: nowrap;
+}
