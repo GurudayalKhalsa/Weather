@@ -36,6 +36,7 @@
         getJSONP(url, callback);
     }
 
+
     function getWeatherFromCoordinates(lat, long, callback)
     {
         if(city === false || typeof city === "undefined") 
